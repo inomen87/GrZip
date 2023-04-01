@@ -19,9 +19,3 @@ if (100 - compress_percent) > 0:
 	print("Compression successful. Space saved: " + str(round(100 - compress_percent)) + "%")
 else:
 	print("Compression unsuccessful. Input too short.")
-
-
-
-
-
-
