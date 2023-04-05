@@ -1,10 +1,10 @@
 
-input_num = int(input("type"))
+input_num = int(input("Type the number: "))
 
 counter_1 = 2
 counter_2 = 0
 counter_3 = 1
-counter_4 = input_num - 2
+control_num = input_num - 2
 
 
 def factorial(n):
@@ -12,7 +12,7 @@ def factorial(n):
     global counter_2
     global counter_3
 
-    while counter_2 < counter_4:
+    while counter_2 < control_num:
         n = n * counter_1
         counter_1 += 1
         counter_2 += 1
