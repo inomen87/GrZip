@@ -1,5 +1,6 @@
 
-input_num = int(input("Type the number: ")) # TODO: Please move this to main clause. Anything that is only executed when
+input_num = int(input("Type the number: ")) # TODO: Please move this to main clause. Anything that is only executed
+# when
 # the file is called via python factorial.py has to go into the __main__ part.
 
 counter_1 = 2
