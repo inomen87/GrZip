@@ -22,7 +22,7 @@ def factorial(n):
     #  code style in general
 
 if __name__ == '__main__':
-    input_num = int(input("Type the number: "))  #  Please move this to main clause. Anything that is only executed when the file is called via python factorial.py has to go into the __main__ part.
+    input_num = int(input("Type the number: "))  # TODO: Please move this to main clause. Anything that is only executed when the file is called via python factorial.py has to go into the __main__ part.
     control_num = input_num - 2
     counter_1 = 2
     counter_2 = 0
