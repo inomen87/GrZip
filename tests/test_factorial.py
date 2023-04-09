@@ -3,7 +3,7 @@ Test the factorial(n) is equal to n!
 Testcases are taken from https://en.wikipedia.org/wiki/Factorial
 """
 
-from ..factorial import factorial
+from factorial.factorial import factorial
 
 cases = (
     (0, 1),
