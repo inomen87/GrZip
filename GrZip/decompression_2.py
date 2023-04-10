@@ -23,5 +23,5 @@ def decompress(inputstring):
     second_list = "".join(second_list)  # Finally we will join a list into a string again and print it out
     return second_list
 
-print(decompress("(58,X),(666,c),(455,b),(58,B),(666,R),(455,5)"))
+print(decompress("(5,a)(1,b)(1,c)def"))
 

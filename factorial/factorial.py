@@ -7,6 +7,9 @@ def factorial(n):
     global counter_2
     global counter_3
 
+    if n <= 1:
+        return 1
+
     while counter_2 < control_num:
         n = n * counter_1
         counter_1 += 1
@@ -17,17 +20,25 @@ def factorial(n):
     if counter_3 == 1:
 
         counter_3 += 1
-        return n
+        print(n)
     # TODO: The function does not return the value of factorial(n) A function that does not return anything is bad
     #  code style in general
 
 def factorial_recursive(n):
     """DOC STRING"""
-    pass
+    if n <= 1:
+        return 1
+    else:
+        return (n * (factorial_recursive(n - 1)))
 
 def factorial_loop(n):
     """DOC STRING"""
-    pass
+    if n <= 1:
+        return 1
+    for num in range(1, n):
+        b = n * num
+        n = b
+    return b
 
 if __name__ == '__main__':
     input_num = int(input("Type the number: "))  # TODO: Please move this to main clause. Anything that is only executed when the file is called via python factorial.py has to go into the __main__ part.

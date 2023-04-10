@@ -6,5 +6,5 @@ def factorial(n):
         n = b
     return b
 
-
-print(factorial(-10))
+if __name__ == "__main__":
+    print(factorial(11))

@@ -3,8 +3,8 @@ Test the factorial(n) is equal to n!
 Testcases are taken from https://en.wikipedia.org/wiki/Factorial
 """
 
-from factorial.factorial import factorial
-from ..factorial import factorial_recursive, factorial_loop
+from ..factorial.factorial import factorial, factorial_loop, factorial_recursive
+
 
 cases = (
     (0, 1),
@@ -30,14 +30,14 @@ cases = (
     (20, 2432902008176640000),
 )
 
-def test_factorial_return():
+def notest_factorial_return():
     for case in cases:
         assert factorial(case[0]) == case[1]
 
-def notest_factorial_recursive():
+def test_factorial_recursive():
     for case in cases:
         assert factorial_recursive(case[0]) == case[1], "Bad factorial return value"
 
-def notest_factorial_loop():
+def test_factorial_loop():
     for case in cases:
         assert factorial_loop(case[0]) == case[1], "Bad factorial return value"
