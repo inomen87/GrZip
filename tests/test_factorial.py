@@ -4,7 +4,7 @@ Testcases are taken from https://en.wikipedia.org/wiki/Factorial
 """
 
 from factorial.factorial import factorial
-# from ..factorial import factorial_recursive, factorial_loop
+from ..factorial import factorial_recursive, factorial_loop
 
 cases = (
     (0, 1),
