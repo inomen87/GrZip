@@ -3,7 +3,7 @@ Test the factorial(n) is equal to n!
 Testcases are taken from https://en.wikipedia.org/wiki/Factorial
 """
 
-from ..factorial import factorial
+from factorial.factorial import factorial
 
 cases = (
     (0, 1),
@@ -32,3 +32,6 @@ cases = (
 def test_factorial_return():
     for case in cases:
         assert factorial(case[0]) == case[1]
+
+
+
