@@ -4,6 +4,7 @@ Testcases are taken from https://en.wikipedia.org/wiki/Factorial
 """
 
 from factorial.factorial import factorial
+# from ..factorial import factorial_recursive, factorial_loop
 
 cases = (
     (0, 1),
@@ -33,5 +34,12 @@ def test_factorial_return():
     for case in cases:
         assert factorial(case[0]) == case[1]
 
+def test_factorial_recursive():
+    for case in cases:
+        assert factorial_recursive(case[0]) == case[1]
 
+def test_factorial_loop():
+    for case in cases:
+        assert factorial_loop(case[0]) == case[1]
+ ,
 
