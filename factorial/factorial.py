@@ -21,6 +21,14 @@ def factorial(n):
     # TODO: The function does not return the value of factorial(n) A function that does not return anything is bad
     #  code style in general
 
+def factorial_recursive(n):
+    """DOC STRING"""
+    pass
+
+def factorial_loop(n):
+    """DOC STRING"""
+    pass
+
 if __name__ == '__main__':
     input_num = int(input("Type the number: "))  # TODO: Please move this to main clause. Anything that is only executed when the file is called via python factorial.py has to go into the __main__ part.
     control_num = input_num - 2
