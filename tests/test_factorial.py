@@ -36,10 +36,8 @@ def test_factorial_return():
 
 def notest_factorial_recursive():
     for case in cases:
-        assert factorial_recursive(case[0]) == case[1]
+        assert factorial_recursive(case[0]) == case[1], "Bad factorial return value"
 
 def notest_factorial_loop():
     for case in cases:
-        assert factorial_loop(case[0]) == case[1]
- ,
-
+        assert factorial_loop(case[0]) == case[1], "Bad factorial return value"
