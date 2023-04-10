@@ -62,5 +62,6 @@ print(multiplication([1,2,3,4,5,6,7,8,9]))
 
 
 def division(numlist):
+	pass
 
 print(division([1,2,3,4,5,6,7,8,9]))
