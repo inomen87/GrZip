@@ -25,6 +25,7 @@ print(even_odd([6 ,"o" ,7 ,8], "even"))
 
 
 
+
 def addition(numlist):
     if isinstance(numlist, list):
         totalsum = 0
