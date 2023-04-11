@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ef44a6d-198c-4b7b-adfe-8d36bb2121d1" name="Changes" comment="Test">
-      <change beforePath="$PROJECT_DIR$/GrZip/compression 1.py" beforeDir="false" afterPath="$PROJECT_DIR$/GrZip/compression_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrZip/decompression 1.py" beforeDir="false" afterPath="$PROJECT_DIR$/GrZip/decompression_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrZip/decompression 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/GrZip/decompression_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factorial/factorial.py" beforeDir="false" afterPath="$PROJECT_DIR$/factorial/factorial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factorial/factorial_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/factorial/factorial_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/notest_compress_threshold.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_compress_threshold.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_factorial.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_factorial.py" afterDir="false" />
+    <list default="true" id="0ef44a6d-198c-4b7b-adfe-8d36bb2121d1" name="Changes" comment="Added function protection">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,13 +30,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Grga/PycharmProjects/Grgo Test 4&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Grga/PycharmProjects/Grga Test 1"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Grga\PycharmProjects\GrZip\GrZip" />
@@ -185,7 +179,42 @@
       <option name="project" value="LOCAL" />
       <updated>1681132112917</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added array_math homework.">
+      <created>1681165151162</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1681165151162</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Added array_math homework.">
+      <created>1681165473561</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1681165473561</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Added array_math homework and updated project name to fit the content better.">
+      <created>1681165743018</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1681165743018</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Added function protection :)">
+      <created>1681167024071</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1681167024071</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Added function protection">
+      <created>1681167079369</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1681167079369</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,6 +230,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test" />
+    <MESSAGE value="Added array_math homework." />
+    <MESSAGE value="Added array_math homework and updated project name to fit the content better." />
+    <MESSAGE value="Added function protection :)" />
+    <MESSAGE value="Added function protection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added function protection" />
   </component>
 </project>
