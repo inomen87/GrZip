@@ -1,14 +1,20 @@
 
 
 
-from ..ArrayMath.array_math_01 import even_odd, addition, multiplication, difference
+from .array_math_01 import even_odd, addition, multiplication, difference
 
 
-cases_evenodd = (
+cases_even = (
     (([6, "o", 7, 8], "even"), [6, 8]),
-    (([6, 1, 3, 4, 8], "odd"), [1, 3]),
     (([6, 2, 5, 7 ,8], "even"), [6, 2, 8]),
 )
+
+
+cases_odd = (
+    (([6, 1, 3, 4, 8], "odd"), [1, 3]),
+)
+
+
 
 cases_addition = (
     ([6,"i",8], 14),
@@ -31,9 +37,10 @@ cases_difference = (
 
 
 def test_even_odd():
-    for case in cases_evenodd:
-        assert even_odd(case[0]) == case[1]
-
+    for case in cases_even:
+        assert even_odd(case[0][0], "even") == case[1]
+    for case in cases_odd:
+        assert even_odd(case[0][0], "odd") == case[1]
 
 
 def test_addition():

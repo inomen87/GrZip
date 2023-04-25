@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ef44a6d-198c-4b7b-adfe-8d36bb2121d1" name="Changes" comment="Added ability to ignore invalid elements in input lists of array_math code.">
-      <change afterPath="$PROJECT_DIR$/tests/test_array_math.py" afterDir="false" />
+    <list default="true" id="0ef44a6d-198c-4b7b-adfe-8d36bb2121d1" name="Changes" comment="Added division.">
+      <change afterPath="$PROJECT_DIR$/ArrayMath/test_array_math_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11-Apr-23_0_07_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11-Apr-23_0_07__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayMath/array_math.py" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayMath/array_math_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayMath/test_array_math.py" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayMath/test_array_math.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_array_math.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_array_math.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,10 +40,13 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Grga/PycharmProjects/PasswordManager&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Grga/PycharmProjects/Flash Card Project&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Grga\PycharmProjects\GrZip\ArrayMath" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Grga\PycharmProjects\GrZip\GrZip" />
       <recent name="C:\Users\Grga\PycharmProjects\GrZip\recursion" />
@@ -229,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681232990058</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Added test file for Array Math">
+      <created>1681381000140</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1681381000140</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -250,6 +265,7 @@
     <MESSAGE value="Added function protection :)" />
     <MESSAGE value="Added function protection" />
     <MESSAGE value="Added ability to ignore invalid elements in input lists of array_math code." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added ability to ignore invalid elements in input lists of array_math code." />
+    <MESSAGE value="Added test file for Array Math" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added test file for Array Math" />
   </component>
 </project>
