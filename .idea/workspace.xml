@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ef44a6d-198c-4b7b-adfe-8d36bb2121d1" name="Changes" comment="Added division.">
-      <change afterPath="$PROJECT_DIR$/ArrayMath/test_array_math_01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11-Apr-23_0_07_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11-Apr-23_0_07__Changes_.xml" beforeDir="false" />
+    <list default="true" id="0ef44a6d-198c-4b7b-adfe-8d36bb2121d1" name="Changes" comment="Tkinter Flash Card App added.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArrayMath/array_math.py" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayMath/array_math_01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArrayMath/test_array_math.py" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayMath/test_array_math.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_array_math.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_array_math.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tkinter/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +35,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Grga/PycharmProjects/Flash Card Project&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Grga/PycharmProjects/GrZip&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -244,7 +239,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681381000140</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Tkinter Flash Card App added.">
+      <created>1682412224023</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1682412224023</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Tkinter Flash Card App added.">
+      <created>1682412353701</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1682412353701</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -266,6 +275,7 @@
     <MESSAGE value="Added function protection" />
     <MESSAGE value="Added ability to ignore invalid elements in input lists of array_math code." />
     <MESSAGE value="Added test file for Array Math" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added test file for Array Math" />
+    <MESSAGE value="Tkinter Flash Card App added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Tkinter Flash Card App added." />
   </component>
 </project>

@@ -6,7 +6,7 @@ BACKGROUND_COLOR = "#B1DDC6"
 current_card = {}
 to_learn = {}
 
-
+# I understand the try-except-else concept but not sure what happens here exactly
 try:
     data = pandas.read_csv("data/words_to_learn.csv")
 except FileNotFoundError:
@@ -16,7 +16,7 @@ except FileNotFoundError:
 else:
     to_learn = data.to_dict(orient="records")
 
-
+# Not sure how "next_card" function works
 def next_card():
     global current_card, flip_timer
     window.after_cancel(flip_timer)
@@ -26,7 +26,8 @@ def next_card():
     canvas.itemconfig(card_background, image=card_front_img)
     flip_timer = window.after(3000, func=flip_card)
 
-
+# "flip_card" function changes Card Title text(e.g. French), Card Word(e.g. french word "matin") and
+#  Card background image
 def flip_card():
     canvas.itemconfig(card_title, text="English", fill="white")
     canvas.itemconfig(card_word, text=current_card["English"], fill="white")
