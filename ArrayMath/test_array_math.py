@@ -2,10 +2,12 @@
 Test Cases for array math
 """
 
-from .array_math import addition as add
-from .array_math import difference as subtract
-from .array_math import multiplication as multiply
-from .array_math import even_odd
+# from .array_math import addition as add
+# from .array_math import difference as subtract
+# from .array_math import multiplication as multiply
+# from .array_math import even_odd
+
+from .array_math_01 import even_odd, addition as add, multiplication as multiply, difference as subtract
 
 addition_testcases = (
     ([],None),

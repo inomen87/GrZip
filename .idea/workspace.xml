@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ef44a6d-198c-4b7b-adfe-8d36bb2121d1" name="Changes" comment="Added ability to ignore invalid elements in input lists of array_math code.">
-      <change afterPath="$PROJECT_DIR$/tests/test_array_math.py" afterDir="false" />
+    <list default="true" id="0ef44a6d-198c-4b7b-adfe-8d36bb2121d1" name="Changes" comment="Tkinter Flash Card App added.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tkinter/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,10 +35,13 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Grga/PycharmProjects/PasswordManager&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Grga/PycharmProjects/GrZip&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Grga\PycharmProjects\GrZip\ArrayMath" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Grga\PycharmProjects\GrZip\GrZip" />
       <recent name="C:\Users\Grga\PycharmProjects\GrZip\recursion" />
@@ -229,7 +232,28 @@
       <option name="project" value="LOCAL" />
       <updated>1681232990058</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Added test file for Array Math">
+      <created>1681381000140</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1681381000140</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Tkinter Flash Card App added.">
+      <created>1682412224023</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1682412224023</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Tkinter Flash Card App added.">
+      <created>1682412353701</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1682412353701</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -250,6 +274,8 @@
     <MESSAGE value="Added function protection :)" />
     <MESSAGE value="Added function protection" />
     <MESSAGE value="Added ability to ignore invalid elements in input lists of array_math code." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added ability to ignore invalid elements in input lists of array_math code." />
+    <MESSAGE value="Added test file for Array Math" />
+    <MESSAGE value="Tkinter Flash Card App added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Tkinter Flash Card App added." />
   </component>
 </project>
